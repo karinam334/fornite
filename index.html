@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fortnite Comp Review - Final Video Edition</title>
+    <style>
+        /* Paleta basada en la imagen ref.jpeg */
+        :root {
+            --verde-base: #e1f5d4;
+            --verde-fuerte: #b4e082;
+            --verde-suave: #d4eda1;
+            --blanco: #ffffff;
+            --texto: #8a9b68;
+            --rosa-titulo: #ffb7d5; 
+            --borde-radio: 15px;
+        }
+
+        body {
+            background-image: url('fondo.png');
+            background-size: cover;
+            background-attachment: fixed;
+            background-color: #f0f9eb;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+            color: var(--texto);
+        }
+
+        .card-container {
+            width: 750px;
+            background-color: var(--blanco);
+            border: 15px solid var(--blanco);
+            border-radius: 25px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+            overflow: hidden;
+            padding: 10px;
+        }
+
+        .header-banner {
+            width: 100%;
+            height: 160px;
+            border-radius: var(--borde-radio);
+            margin-bottom: 5px;
+            overflow: hidden;
+        }
+        .header-banner img { width: 100%; height: 100%; object-fit: cover; }
+
+        .main-pink-title {
+            color: var(--rosa-titulo);
+            font-size: 28px;
+            font-weight: bold;
+            text-align: center;
+            margin: 15px 0;
+            text-transform: lowercase;
+            letter-spacing: -1px;
+            font-style: italic;
+        }
+
+        .nav-bar {
+            background-color: var(--verde-base);
+            padding: 10px;
+            display: flex;
+            gap: 10px;
+            border-radius: var(--borde-radio);
+            margin-bottom: 15px;
+        }
+        .nav-btn {
+            background-color: var(--verde-fuerte);
+            color: white;
+            padding: 8px 25px;
+            border-radius: 10px;
+            font-weight: bold;
+            font-size: 14px;
+        }
+
+        .middle-section {
+            display: grid;
+            grid-template-columns: 130px 1fr 1fr;
+            gap: 15px;
+            margin-bottom: 15px;
+        }
+
+        .links-col td {
+            border: 2px solid var(--verde-base);
+            padding: 6px;
+            font-size: 12px;
+            text-align: center;
+            color: var(--verde-fuerte);
+        }
+
+        .main-img-box {
+            border: 2px solid var(--verde-base);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        .main-img-box img { width: 100%; height: 100%; object-fit: cover; }
+
+        .profile-col {
+            border: 2px solid var(--verde-base);
+            border-radius: 10px;
+            padding: 12px;
+            font-size: 11px;
+            line-height: 1.4;
+        }
+
+        .titulo-tabla {
+            background-color: var(--verde-base);
+            color: var(--verde-fuerte);
+            text-align: center;
+            padding: 15px;
+            font-size: 18px;
+            font-weight: bold;
+            border-radius: 10px 10px 0 0;
+            margin-top: 20px;
+            border: 2px solid var(--verde-base);
+            text-transform: lowercase;
+        }
+
+        .skins-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 11px;
+            border: 2px solid var(--verde-base);
+            border-top: none;
+        }
+        .skins-table td { padding: 15px; border-bottom: 1px solid var(--verde-base); vertical-align: top; line-height: 1.5; }
+
+        .nombre-skin {
+            font-size: 14px;
+            color: var(--verde-fuerte);
+            font-weight: bold;
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        /* Estilo para los contenedores de video */
+        .video-wrapper {
+            margin-top: 20px;
+            border: 5px solid var(--verde-base);
+            border-radius: var(--borde-radio);
+            overflow: hidden;
+            background-color: #000; /* Fondo negro para que no brille mientras carga */
+        }
+
+        .video-wrapper video {
+            width: 100%;
+            display: block;
+        }
+
+        .footer-label { font-size: 12px; color: #ccc; margin-top: 10px; }
+    </style>
+</head>
+<body>
+
+<div class="card-container">
+    <div class="header-banner">
+        <img src="banner.png" alt="Banner Top" onerror="this.src='https://via.placeholder.com/750x160/e1f5d4/8a9b68?text=FORTNITE+DATABASE'">
+    </div>
+
+    <div class="main-pink-title">
+        skins mas usadas en el competitivo
+    </div>
+
+    <div class="nav-bar">
+        <div class="nav-btn">perfil</div>
+        <div class="nav-btn" style="background: var(--verde-suave);">skins</div>
+        <div class="nav-btn">analisis</div>
+    </div>
+
+    <div class="middle-section">
+        <div class="links-col">
+            <h3 style="margin: 0 0 5px 0; color: var(--verde-fuerte);">recursos !!</h3>
+            <table style="width: 100%; border-collapse: collapse;">
+                <tr><td>fn.tracker</td></tr>
+                <tr><td>drop.map</td></tr>
+                <tr><td>meta.slays</td></tr>
+                <tr><td>scrims.dc</td></tr>
+            </table>
+        </div>
+        
+        <div class="main-img-box">
+            <img src="img1.png" alt="Competitive Vibe" onerror="this.src='https://via.placeholder.com/300/e1f5d4/8a9b68?text=FN+PRO+VIBES'">
+        </div>
+
+        <div class="profile-col">
+            <h2 style="margin:0; color:var(--verde-fuerte);">. Meta 🍏</h2>
+            <p><b>Temporada Actual / Pro Comp</b><br>
+          
+En resumen, lo que define a una skin competitiva no es el daño que hace, sino la ventaja táctica que ofrece al jugador:
+
+Silueta Delgada: Ocupan menos espacio en pantalla, lo que mejora tu visibilidad periférica para ver enemigos que una skin grande taparía.
+
+Perfil Bajo: Al no tener accesorios voluminosos (capas, cascos grandes o efectos de luz), es más fácil ocultarse en arbustos o detrás de construcciones.
+
+Limpieza Visual: No tienen animaciones reactivas (brillos o fuego) que distraigan al apuntar o que delaten tu posición en zonas oscuras.
+
+Ventaja de Ángulo: Sus hombros estrechos permiten ejecutar el "Right Hand Peek" (asomarse por la derecha) con total claridad, sin que el modelo de la skin obstruya la mira.</p>
+        </div>
+    </div>
+
+    <div class="titulo-tabla">
+        mejores skins competitivas fortnite
+    </div>
+
+    <table class="skins-table">
+        <tbody>
+            <tr>
+                <td style="width: 30%;"><span class="nombre-skin">Superhéroes</span></td>
+                <td>Skin técnica con personalización monocromática. Los pros la usan para mimetizarse con sombras de metal. Sin accesorios reactivos, ofrece una silueta limpia que reduce la detección en zonas finales.</td>
+            </tr>
+            <tr>
+                <td><span class="nombre-skin">Aura</span></td>
+                <td>Favorita por su diseño esbelto. Ocupa menos espacio en pantalla, aumentando la visibilidad periférica. Ideal en boxfights para predecir movimientos del oponente a través de estructuras.</td>
+            </tr>
+            <tr>
+                <td><span class="nombre-skin">Focus</span></td>
+                <td>Estética minimalista y colores mate. Su acabado opaco absorbe la luz, dificultando el rastreo visual a larga distancia. Hitbox visual coherente para una edición de estructuras más fluida.</td>
+            </tr>
+            <tr>
+                <td><span class="nombre-skin">Siren</span></td>
+                <td>Icono de la élite competitiva. Hombros estrechos y cabeza compacta para asomos por la derecha (Right Hand Peek) sin obstruir la visión, permitiendo disparar seguro desde cobertura.</td>
+            </tr>
+            <tr>
+                <td><span class="nombre-skin">Dummy</span></td>
+                <td>Modelo de colisión visualmente compacto. Su silueta de maniquí de pruebas es de las más delgadas, confundiendo la percepción enemiga sobre la orientación del jugador en el caos del combate.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="video-wrapper">
+        <iframe 
+            width="100%" 
+            height="350" 
+            src="https://www.youtube.com/embed/9vDT6IUoQ4M" 
+            frameborder="0" 
+            allowfullscreen>
+        </iframe>
+    </div>
+
+    <div class="video-wrapper">
+        <video controls>
+            <source src="vid.mp4" type="video/mp4">
+            Tu navegador no soporta el formato de video.
+        </video>
+    </div>
+
+    <div class="footer-label">( Made with Carrd )</div>
+</div>
+
+</body>
+</html>
